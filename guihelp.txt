@@ -1,0 +1,38 @@
+I. TO START GUI:
+
+In MATLAB type 
+>>SMART_TEST(simFlag)
+where simFlag is 1 for loading simulation data
+and 2 for collecting TDT data 
+
+II. BUTTONS
+
+In top right corner of each panel:
+[D] is to dock/undock panel
+[X] is to enable/disable contents of panel
+
+III. USER INPUT
+
+A. Collect Baseline:
+Click to collect basedline.
+If simFlag==1, will open dialog box. Select block folder (ie EC2_B1)
+Inside folder, must have RawHTK folder with Wav*.htk contents.
+
+If simFlag==2, will load data from TDT buffer
+
+B. Load MRI (optional)
+Click to open dialog. Click on .jpg brain image. 
+Inside that same folder, must have regdata.mat file holding electrode coordinates.
+The image and electrode points will be plotted in MRI plots
+
+C. Start
+Click to start data acquisition
+If simFlag==1, will open dialog window. Select block folder to load data from HTK files
+If simFlag==2, will access TDT buffer
+
+D. Stop
+Click to stop data acquisition
+
+E. Help
+
+	
